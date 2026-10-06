@@ -1,0 +1,84 @@
+# ---------- OS files ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Editors / IDEs ----------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ---------- Logs & temp files ----------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+
+# ---------- Environment & secrets ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---------- Dependencies ----------
+node_modules/
+bower_components/
+vendor/
+.venv/
+venv/
+env/
+
+# ---------- Build output ----------
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.o
+*.class
+*.exe
+*.dll
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- Node / JS ----------
+.next/
+.nuxt/
+.parcel-cache/
+coverage/
+*.tsbuildinfo
+
+# ---------- Archives & databases ----------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.sqlite
+*.sqlite3
+*.db
